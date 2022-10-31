@@ -1,12 +1,11 @@
 # 💻 | Introdução ao C# - DIO.
 
 ### Projeto: Construindo um Sistema para um Estacionamento com C#.
-<br>
+
 Seja bem vindo, aqui é totalmente para meus estudos e aperfeiçoamento como profissional. ❤️
 
 - Colocando em prática conceitos obtidos durante a aula, nada de outro mundo apenas apresentando conceitos básicos e outros.
 - Utilizando a linguagem C#.
-<br>
 
 <b>Segue a lista de commits para verificar o que foi alterado e incrementado!</b>
 
