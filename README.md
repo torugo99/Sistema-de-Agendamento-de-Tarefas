@@ -1,4 +1,4 @@
-# 💻 | Introdução ao C# - DIO.
+# 💻 | C# - DIO.
 
 ### Projeto: Construindo um Sistema para um Estacionamento com C#.
 
