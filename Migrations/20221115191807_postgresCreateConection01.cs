@@ -4,13 +4,16 @@
 
 namespace TrilhaApiDesafio.Migrations
 {
-    public partial class tarefaControllersUpdate : Migration
+    /// <inheritdoc />
+    public partial class postgresCreateConection01 : Migration
     {
+        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
 
         }
 
+        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
 
