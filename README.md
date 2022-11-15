@@ -1,4 +1,4 @@
-# 💻 | C# - DIO.
+# 💻 | C# e Entity Framework - DIO.
 
 ### Projeto: Construindo um Sistema de agendamento com C#.
 
