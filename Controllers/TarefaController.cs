@@ -15,6 +15,16 @@ namespace SistemaAgendamentoTarefas.Controllers
             _context = context;
         }
 
+        [HttpPost]
+        public IActionResult Criar(Tarefa tarefa)
+        {
+            if (tarefa.Data == DateTime.MinValue)
+                return BadRequest(new { Erro = "A data da tarefa não pode ser vazia" });
+            _context.Add(tarefa);
+            _context.SaveChanges();
+            return CreatedAtAction(nameof(ObterPorId), new { id = tarefa.Id }, tarefa);
+        }
+
         [HttpGet("{id}")]
         public IActionResult ObterPorId(int id)
         {
@@ -54,16 +64,6 @@ namespace SistemaAgendamentoTarefas.Controllers
         {
             var tarefa = _context.Tarefas.Where(x => x.Status == status);
             return Ok(tarefa);
-        }
-
-        [HttpPost]
-        public IActionResult Criar(Tarefa tarefa)
-        {
-            if (tarefa.Data == DateTime.MinValue)
-                return BadRequest(new { Erro = "A data da tarefa não pode ser vazia" });
-            _context.Add(tarefa);
-            _context.SaveChanges();
-            return CreatedAtAction(nameof(ObterPorId), new { id = tarefa.Id }, tarefa);
         }
 
         [HttpPut("{id}")]
