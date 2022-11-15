@@ -1,6 +1,6 @@
 # 💻 | C# - DIO.
 
-### Projeto: Construindo um Sistema para um Estacionamento com C#.
+### Projeto: Construindo um Sistema de agendamento com C#.
 
 Seja bem vindo, aqui é totalmente para meus estudos e aperfeiçoamento como profissional. ❤️
 
